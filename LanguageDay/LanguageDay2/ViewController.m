@@ -1,14 +1,15 @@
 //
 //  ViewController.m
-//  LanguageDay
+//  LanguageDay2
 //
-//  Created by UH 300 -21 on 1/27/15.
-//  Copyright (c) 2015 UH 300 -21. All rights reserved.
+//  Created by UH300- App Sales on 9/15/15.
+//  Copyright (c) 2015 UH300- App Sales. All rights reserved.
 //
 
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //We made it
+    //Make the label text hello world
+    self.myLabel.text = @"Goodbye World";
+    
 }
 
 - (void)didReceiveMemoryWarning {
